@@ -1,0 +1,64 @@
+/* Set theme variables here */
+/* 400px */
+/* 700px */
+/* 900px */
+/* 1300px */
+/* Page furniture */
+.page {
+  width: 100%;
+  /* this is somewhat arbitrary - just a value that is close to full width but leaves a bit of margin */
+  margin: 0 auto;
+  /* make sure the page area stays centered */ }
+  .page > header {
+    padding: 0 0.75em; }
+  .page > .main {
+    padding: 0 0.75em; }
+  .page > footer {
+    padding: 0 0.75em; }
+
+@media (min-width: 25em) {
+  .page {
+    width: 96%;
+    max-width: 38em;
+    margin: 0 auto;
+    /* make sure the page area stays centered */ }
+    .page > header {
+      padding: 0 0.75em; }
+    .page > .main {
+      padding: 0 0.75em; }
+    .page > footer {
+      padding: 0 0.75em; } }
+@media (min-width: 43.75em) {
+  .page {
+    width: 94%;
+    max-width: 40em;
+    margin: 0 auto;
+    /* make sure the page area stays centered */ }
+    .page > header {
+      padding: 0 0.75em; }
+    .page > .main {
+      padding: 0 0.75em; }
+    .page > footer {
+      padding: 0 0.75em; } }
+@media (min-width: 56.25em) {
+  .page {
+    width: 90%;
+    max-width: 50em;
+    margin: 0 auto;
+    /* make sure the page area stays centered */ }
+    .page > header {
+      padding: 0 1.5em; }
+    .page > .main {
+      padding: 0 1.5em; }
+    .page > footer {
+      padding: 0 1.5em; } }
+@media (min-width: 81.25em) {
+  .page {
+    width: 80%;
+    max-width: 60em; }
+    .page > header {
+      padding: 0 1.5em; }
+    .page > .main {
+      padding: 0 1.5em; }
+    .page > footer {
+      padding: 0 1.5em; } }

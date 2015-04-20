@@ -1,0 +1,138 @@
+/* Import _base.scss variables */
+@import "base";
+
+@import "normalize";
+
+
+/******** HELPERS ********/
+
+/* apply a natural box layout model to all elements */
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+/* end update for semantics */
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 175, ../sass/h5bp_main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+/* line 180, ../sass/h5bp_main.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 189, ../sass/h5bp_main.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* useful resets from HTML5 BoilerPlate */
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 59, ../sass/h5bp_main.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 67, ../sass/h5bp_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 77, ../sass/h5bp_main.scss */
+textarea {
+  resize: vertical;
+}
+
+/* Minimal page design to provide visual structure */
+
+body, p, caption, th, td, input, textarea, legend, fieldset {
+	color: $text-color;
+	font-family: $sans-serif; 
+	line-height: 1.4;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family: $serif;
+}
+
+body {
+	background-color: $body-background;
+}
+
+.page {
+	background-color: #fdfdfd;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+
+img {
+	width: 100%; 
+	max-width: 100%; 
+	height: auto;
+}
+
+
+figure {
+	margin-bottom: 2em;
+	
+}
+figcaption {
+	font-family: $serif;
+	font-size: (14 / $text-base-size) * 1em;
+	text-align: right;
+	color: #9f9f9f;
+}
+
+
+
+
+
+
+
+/* Make sure this is last - helps correct for an orientation scale bug in iOS */
+
+@media screen and (orientation:landscape) and (device-width:320px) and (device-height: 480px) {
+	body {
+		width: 480px;
+	}
+}/*/mediaquery*/
+
