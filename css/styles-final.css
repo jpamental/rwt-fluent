@@ -1,0 +1,1078 @@
+/* Import _base.scss variables */
+/* Set theme variables here */
+/* 400px */
+/* 700px */
+/* 900px */
+/* 1300px */
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses font sizes and margins set differently in IE 6/7.
+ * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0; }
+
+/*
+ * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 40px; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0; }
+
+/*
+ * Corrects font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Addresses CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none; }
+
+/*
+ * Addresses `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+/*
+ * Addresses paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/*
+ * Corrects list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improves image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */ }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Corrects margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0; }
+
+/*
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 6/7/8/9.
+ * 2. Corrects text not wrapping in Firefox 3.
+ * 3. Corrects alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */ }
+
+/*
+ * 1. Corrects font size not being inherited in all browsers.
+ * 2. Addresses margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improves appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Removes inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */
+  *overflow: visible;
+  /* 4 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to content-box in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ * 3. Removes excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* Import _base.scss variables */
+/* Set theme variables here */
+/*
+font-family:'Old English W03';
+font-family:'L Futura W01';
+font-family:'ITC Charter W01';
+*/
+/* fallback font tweaks should be done in _rwt_scaffold - not worth putting variables in here for that */
+/* 400px */
+/* 700px */
+/* 900px */
+/* 1300px */
+/* This mixin is meant to help enable/disable OpenType features in your web pages with web fonts that support them */
+/*
+OpenType Features Key
+@mixin otfeatures($c2sc: 0, $calt: 0, $clig: 0, $dlig: 0, $frac: 0, $hist: 0, $hlig: 0, $kern: 0, $liga: 0, $nalt: 0, $ncase: 0, $nspace: 0, $salt: 0, $ss01: 0, $ss02: 0, $ss03: 0, $ss04: 0, $ss05: 0, $swsh: 0, $zero: 0)
+
+// Ligatures 
+"liga" : common ligatures 
+"dlig" : discretionary ligatures 
+"clig" : contextual ligatures 
+"hlig" : historical ligatures 
+
+// Alternate Characters
+"swsh" : swashes 
+"calt" : contextual alternates 
+"hist" : historical character alternatives 
+"salt" : stylistic alternatives 
+
+// Kerning
+"kern" : enable use of embedded kerning table 
+
+// Letter Case
+"smcp" : small caps 
+"c2sc" : small caps from caps 
+
+// Stylistic Alternates
+"ss01" : alternate stylistic set 1 
+"ss02" : alternate stylistic set 2  
+"ss03" : alternate stylistic set 3 
+"ss04" : alternate stylistic set 4 
+"ss05" : alternate stylistic set 5 
+
+// Numeric Extras
+"zero" : slashed-zero 
+"nalt" : alternate annotation 
+
+The following OT Features are either/or rather than single choices, so require some 'if/else' logic
+// Number Case
+"ncase" : number case
+		0: default
+		lnum: lining figures
+		onum: old style figures
+
+// Number Spacing
+"nspace": number spacing
+		0: default
+		pnum: proportional spacing
+		tnum: tabuplar spacing
+
+"frac"	: fractions
+		0: off
+		frac: normal fractions
+		afrc: alternate fractions
+*/
+/* This mixin is meant to give a nicer link underline that sits comfortably below the text and uses text shadow to knock out the underline around descenders */
+/*
+Nice Link Features key
+Background Color - defaults to white, needed to blend the text shadow with the background color to create the 'knock-out' effect
+$background: #ffffff
+
+Link Color - defaults to blue, needed to match the text and underline colors
+$link: #0000ee
+
+*/
+/* Type Rendering Mix */
+/* set webkit antialiasing specifically for Mac OS */
+.tr-coretext {
+  /* Add classes here that you want to 'skinny up' when rendered on MacOS and fonts look chunky */
+  /* example: */ }
+
+/* helps with fonts that look a bit chunky on MacOS vs other platforms/OS's */
+.skinnify {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.unskinnify {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto; }
+
+.hyphenate {
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto; }
+
+/******* /HELPERS ********/
+/* RWT Scaffold Styles */
+html {
+  font-size: 100%; }
+
+/* CONSIDERATIONS */
+/* 
+	When working across breakpoints and with/without web fonts, be sure to think about:
+		font-size
+		letter-spacing
+		line-height
+		margin-top
+		margin-bottom	
+*/
+body {
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-size: 1em; }
+
+p, caption, th, td, input, textarea, legend, fieldset {
+  color: #393939;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  letter-spacing: normal;
+  line-height: 1.625;
+  -moz-transition: font-size 0.2s ease-in-out;
+  -o-transition: font-size 0.2s ease-in-out;
+  -webkit-transition: font-size 0.2s ease-in-out;
+  transition: font-size 0.2s ease-in-out; }
+  @media (min-width: 25em) {
+    p, caption, th, td, input, textarea, legend, fieldset {
+      font-size: 1em; } }
+  @media (min-width: 43.75em) {
+    p, caption, th, td, input, textarea, legend, fieldset {
+      font-size: 1em; } }
+  @media (min-width: 56.25em) {
+    p, caption, th, td, input, textarea, legend, fieldset {
+      font-size: 1em; } }
+  @media (min-width: 81.25em) {
+    p, caption, th, td, input, textarea, legend, fieldset {
+      font-size: 1.125em;
+      line-height: 1.55556; } }
+  .wf-inactive p, .wf-inactive caption, .wf-inactive th, .wf-inactive td, .wf-inactive input, .wf-inactive textarea, .wf-inactive legend, .wf-inactive fieldset {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 0.985em;
+    letter-spacing: 0.025em;
+    word-spacing: 0.07em; }
+  .wf-inactive.uncorrected p, .wf-inactive.uncorrected caption, .wf-inactive.uncorrected th, .wf-inactive.uncorrected td, .wf-inactive.uncorrected input, .wf-inactive.uncorrected textarea, .wf-inactive.uncorrected legend, .wf-inactive.uncorrected fieldset {
+    font-size: inherit;
+    line-height: inherit;
+    letter-spacing: inherit; }
+
+h1 {
+  color: #2f2f2f;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  letter-spacing: normal;
+  line-height: 1.25;
+  margin-top: 0.9375em;
+  margin-bottom: 0.3125em;
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 25em) {
+    h1 {
+      font-size: 2.25em;
+      letter-spacing: normal;
+      line-height: 1.11111;
+      margin-top: 0.83333em;
+      margin-bottom: 0.27778em; } }
+  @media (min-width: 43.75em) {
+    h1 {
+      font-size: 2.5em;
+      letter-spacing: normal;
+      line-height: 1.125;
+      margin-top: 0.75em;
+      margin-bottom: 0.5em; } }
+  @media (min-width: 56.25em) {
+    h1 {
+      font-size: 3em;
+      letter-spacing: normal;
+      line-height: 1.04167;
+      margin-top: 1.04167em;
+      margin-bottom: 0.41667em; } }
+  @media (min-width: 81.25em) {
+    h1 {
+      font-size: 3.55556em;
+      letter-spacing: normal;
+      line-height: 1.0625;
+      margin-top: 0.9375em;
+      margin-bottom: 0.46875em; } }
+  .wf-inactive h1 {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+    @media (min-width: 56.25em) {
+      .wf-inactive h1 {
+        font-size: 3em;
+        letter-spacing: -0.025em;
+        margin-top: 1.04167em;
+        margin-bottom: 0.47917em; } }
+
+h2 {
+  color: #2f2f2f;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 1.625em;
+  letter-spacing: normal;
+  line-height: 1.15385;
+  margin-top: 0.76923em;
+  margin-bottom: 0.38462em;
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 25em) {
+    h2 {
+      font-size: 1.75em;
+      letter-spacing: normal;
+      line-height: 1.21429;
+      margin-top: 0.71429em;
+      margin-bottom: 0.35714em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 43.75em) {
+    h2 {
+      font-size: 2em;
+      letter-spacing: normal;
+      line-height: 1.25;
+      margin-top: 0.625em;
+      margin-bottom: 0.3125em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 56.25em) {
+    h2 {
+      font-size: 2.25em;
+      letter-spacing: normal;
+      line-height: 1.16667;
+      margin-top: 0.83333em;
+      margin-bottom: 0.55556em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 81.25em) {
+    h2 {
+      font-size: 2.22222em;
+      letter-spacing: normal;
+      line-height: 1.2;
+      margin-top: 0.75em;
+      margin-bottom: 0.5em;
+      margin-left: 0;
+      margin-right: 0; } }
+  .wf-inactive h2 {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+    @media (min-width: 56.25em) {
+      .wf-inactive h2 {
+        margin-top: 0.77778em;
+        margin-bottom: 0.61111em; } }
+    @media (min-width: 81.25em) {
+      .wf-inactive h2 {
+        margin-top: 0.7em;
+        margin-bottom: 0.55em; } }
+
+h3 {
+  color: #2f2f2f;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 1.3125em;
+  letter-spacing: normal;
+  line-height: 1.14286;
+  margin-top: 0.95238em;
+  margin-bottom: 0.47619em;
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 25em) {
+    h3 {
+      font-size: 1.5em;
+      letter-spacing: normal;
+      line-height: 1.16667;
+      margin-top: 0.83333em;
+      margin-bottom: 0.41667em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 43.75em) {
+    h3 {
+      font-size: 1.75em;
+      letter-spacing: normal;
+      line-height: 1.14286;
+      margin-top: 0.71429em;
+      margin-bottom: 0.35714em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 56.25em) {
+    h3 {
+      font-size: 1.875em;
+      letter-spacing: normal;
+      line-height: 1.2;
+      margin-top: 0.66667em;
+      margin-bottom: 0.33333em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 81.25em) {
+    h3 {
+      font-size: 1.77778em;
+      letter-spacing: normal;
+      line-height: 1.25;
+      margin-top: 0.625em;
+      margin-bottom: 0.3125em;
+      margin-left: 0;
+      margin-right: 0; } }
+  .wf-inactive h3 {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+    @media (min-width: 56.25em) {
+      .wf-inactive h3 {
+        letter-spacing: -0.0075em; } }
+
+h4 {
+  color: #2f2f2f;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-size: 1.125em;
+  letter-spacing: normal;
+  line-height: 1.22222;
+  margin-top: 0.83333em;
+  margin-bottom: 0.27778em;
+  margin-left: 0;
+  margin-right: 0; }
+  @media (min-width: 25em) {
+    h4 {
+      font-size: 1.125em;
+      letter-spacing: normal;
+      line-height: 1.22222;
+      margin-top: 0.83333em;
+      margin-bottom: 0.27778em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 43.75em) {
+    h4 {
+      font-size: 1.25em;
+      letter-spacing: normal;
+      line-height: 1.2;
+      margin-top: 0.75em;
+      margin-bottom: 0.25em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 56.25em) {
+    h4 {
+      font-size: 1.375em;
+      letter-spacing: normal;
+      line-height: 1.18182;
+      margin-top: 0.68182em;
+      margin-bottom: 0.22727em;
+      margin-left: 0;
+      margin-right: 0; } }
+  @media (min-width: 81.25em) {
+    h4 {
+      font-size: 1.33333em;
+      letter-spacing: normal;
+      line-height: 1.16667;
+      margin-top: 0.625em;
+      margin-bottom: 0.20833em;
+      margin-left: 0;
+      margin-right: 0; } }
+  .wf-inactive h4 {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+    @media (min-width: 56.25em) {
+      .wf-inactive h4 {
+        letter-spacing: -0.035em;
+        font-size: 1.35em; } }
+
+h5 {
+  color: #2f2f2f;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif; }
+  .wf-inactive h5 {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+
+h6 {
+  color: #2f2f2f;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif; }
+  .wf-inactive h6 {
+    font-family: Georgia, "Times New Roman", Times, serif; }
+
+p {
+  margin: 0 auto 1em auto;
+  max-width: 42em; }
+
+a {
+  display: inline-block;
+  -moz-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  -o-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out; }
+  a:link {
+    color: #0033dd;
+    padding: 0 0;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, -1px 0 0 #fff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDJkYzQiIHN0b3Atb3BhY2l0eT0iMC44NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 45, 196, 0.85)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 45, 196, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 45, 196, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 45, 196, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 0.9em;
+    display: inline;
+    word-break: break-word; }
+  a:visited {
+    color: #002191;
+    padding: 0 0;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, -1px 0 0 #fff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDFiNzciIHN0b3Atb3BhY2l0eT0iMC44NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 27, 119, 0.85)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 27, 119, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 27, 119, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 27, 119, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 0.9em;
+    display: inline;
+    word-break: break-word; }
+  a:hover {
+    color: #993300;
+    padding: 0 0;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, -1px 0 0 #fff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiM4MDJiMDAiIHN0b3Atb3BhY2l0eT0iMC44NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(128, 43, 0, 0.85)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 0.9em;
+    display: inline;
+    word-break: break-word; }
+  a:focus {
+    color: #993300;
+    padding: 0 0;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, -1px 0 0 #fff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiM4MDJiMDAiIHN0b3Atb3BhY2l0eT0iMC44NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(128, 43, 0, 0.85)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 0.9em;
+    display: inline;
+    word-break: break-word; }
+  a:active {
+    color: #993300;
+    padding: 0 0;
+    text-decoration: none;
+    text-shadow: 1px 0 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, -1px 0 0 #fff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiM4MDJiMDAiIHN0b3Atb3BhY2l0eT0iMC44NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(128, 43, 0, 0.85)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(128, 43, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 0.9em;
+    display: inline;
+    word-break: break-word; }
+
+/* Initial Cap styles */
+.article-text > p:first-of-type:first-letter, .lt-ie9 .article-text h2 + p:first-letter {
+  font-size: 5em;
+  font-family: "Diplomata", Georgia, "Times New Roman", Times, serif;
+  line-height: 0.9em;
+  float: left;
+  padding-right: 0; }
+  .wf-inactive .article-text > p:first-of-type:first-letter, .wf-inactive .lt-ie9 .article-text h2 + p:first-letter, .lt-ie9 .article-text .wf-inactive h2 + p:first-letter {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 5em;
+    margin-top: -0.1em;
+    padding-right: 0.15em;
+    padding-left: 0.1em; }
+
+/* To work in older versions of IE you have to target an adjacent selector because first-of-type doesn't work */
+/******** HELPERS ********/
+/* apply a natural box layout model to all elements */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* end update for semantics */
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+/* line 175, ../sass/h5bp_main.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 180, ../sass/h5bp_main.scss */
+.clearfix:after {
+  clear: both; }
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+/* line 189, ../sass/h5bp_main.scss */
+.clearfix {
+  *zoom: 1; }
+
+/* useful resets from HTML5 BoilerPlate */
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 59, ../sass/h5bp_main.scss */
+img {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+/* line 67, ../sass/h5bp_main.scss */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 77, ../sass/h5bp_main.scss */
+textarea {
+  resize: vertical; }
+
+/* Minimal page design to provide visual structure */
+body {
+  background-color: #f8f8f5; }
+
+.page {
+  background-color: #fdfdfd;
+  margin-top: 1em;
+  margin-bottom: 2em; }
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto; }
+
+figure {
+  margin-bottom: 2em; }
+
+figcaption {
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875em;
+  text-align: right;
+  color: #9f9f9f; }
+
+/* open type features */
+p {
+  -moz-font-feature-settings: "c2sc=0", "calt=0", "clig=1", "dlig=1", "frac=0", "hist=0", "hlig=0", "kern= 1", "liga=1", "nalt=0", "salt=0", "smcp=0", "ss01=0", "ss02=0", "ss03=0", "ss04=0", "ss05=0", "swsh=0", "zero=0",  "snum=0";
+  -moz-font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  -webkit-font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  -ms-font-feature-settings: "c2sc=0", "calt=0", "clig=1", "dlig=1", "frac=0", "hist=0", "hlig=0", "kern= 1", "liga=1", "nalt=0", "salt=0", "smcp=0", "ss01=0", "ss02=0", "ss03=0", "ss04=0", "ss05=0", "swsh=0", "zero=0",  "snum=0";
+  -o-font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  margin-bottom: 0;
+  text-indent: 1em; }
+  .article-text > p:first-of-type {
+    text-indent: 0; }
+    .article-text > p:first-of-type:first-line {
+      font-family: "Playfair Display SC", Georgia, "Times New Roman", Times, serif;
+      text-indent: -0.5em; }
+      .wf-inactive .article-text > p:first-of-type:first-line {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-variant: small-caps;
+        font-size: 1.2em; }
+  .article-text > p:last-of-type:after {
+    content: "\00A7";
+    text-align: center;
+    display: block;
+    margin: 1em 0;
+    text-shadow: 2px 0 0 #ffffff, 2px 0 0 #ffffff, -2px 0 0 #ffffff, -2px 0 0 #ffffff;
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4wIi8+PHN0b3Agb2Zmc2V0PSI3NSUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC44NSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(75%, rgba(0, 0, 0, 0)), color-stop(75%, rgba(0, 0, 0, 0.85)), color-stop(100%, rgba(0, 0, 0, 0)));
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0.85) 75%, rgba(0, 0, 0, 0));
+    background-repeat: repeat-x;
+    background-size: 2px 2px;
+    background-position: 0 0.55em; }
+
+h1 {
+  -moz-font-feature-settings: "c2sc=0", "calt=0", "clig=1", "dlig=1", "frac=0", "hist=0", "hlig=0", "kern= 1", "liga=1", "nalt=0", "salt=0", "smcp=0", "ss01=0", "ss02=0", "ss03=0", "ss04=0", "ss05=0", "swsh=0", "zero=0",  "snum=0";
+  -moz-font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  -webkit-font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  -ms-font-feature-settings: "c2sc=0", "calt=0", "clig=1", "dlig=1", "frac=0", "hist=0", "hlig=0", "kern= 1", "liga=1", "nalt=0", "salt=0", "smcp=0", "ss01=0", "ss02=0", "ss03=0", "ss04=0", "ss05=0", "swsh=0", "zero=0",  "snum=0";
+  -o-font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0;
+  font-feature-settings: "c2sc" 0, "calt" 0, "clig" 1, "dlig" 1, "frac" 0, "hist" 0, "hlig" 0, "kern" 1, "liga" 1, "nalt" 0, "salt" 0, "smcp" 0, "ss01" 0, "ss02" 0, "ss03" 0, "ss04" 0, "ss05" 0, "swsh" 0, "zero" 0,   "snum" 0; }
+
+.page > header {
+  margin-bottom: 1em; }
+  .page > header h1 {
+    margin: 0.25em 0 0.15em 0; }
+
+.author {
+  display: block;
+  font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+  font-style: italic; }
+  .wf-inactive .author {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 0.05em; }
+
+article > header figure {
+  margin-bottom: 0; }
+
+.title {
+  display: block;
+  font-size: 1.25em;
+  margin: 0.5em 0 2em 0;
+  text-align: right; }
+  .title label {
+    float: left; }
+  .wf-inactive .title {
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    margin: 0.5em 0 2em 0; }
+
+/* Blockquote styles */
+blockquote {
+  max-width: 40em;
+  margin: 0 auto; }
+  blockquote p {
+    width: 85%;
+    margin: 0.5em auto 1em auto;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    text-indent: 0;
+    font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: normal;
+    position: relative; }
+    blockquote p:before {
+      content: "\201C";
+      font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+      font-size: 1.5em;
+      color: #5f5f5f;
+      position: absolute;
+      top: 0;
+      left: -0.55em; }
+    blockquote p:after {
+      content: "\201D";
+      font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+      font-size: 1.5em;
+      color: #5f5f5f;
+      position: relative;
+      bottom: -0.2em;
+      right: 0.05em;
+      display: inline;
+      line-height: .2em; }
+
+/* Make sure this is last - helps correct for an orientation scale bug in iOS */
+@media screen and (orientation: landscape) and (device-width: 320px) and (device-height: 480px) {
+  body {
+    width: 480px; } }
+/*/mediaquery*/
